@@ -8,7 +8,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
-<style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 :root{
   --ink:#1f2a24; --muted:#5f6f66; --line:#e4e8e2;
   --green:#2e5c4a; --green-dk:#1d3a2f; --gold:#c2a35c; --cream:#f7f5f0; --white:#fff;
@@ -32,10 +34,10 @@ h1,h2,h3{font-weight:400;line-height:1.2}
 /* nav */
 header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
 header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
-.logo{display:flex;align-items:flex-end;gap:12px}
-.logo img{width:44px;height:44px;flex-shrink:0}
-.logo .brand{font-size:30px;font-weight:700;letter-spacing:.02em;color:var(--green-dk);font-family:'Playfair Display',Georgia,serif;line-height:1}
-.logo .sub{font-size:10px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-family:'Montserrat',system-ui,sans-serif;line-height:1;padding-bottom:5px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{width:40px;height:40px}
+.logo .brand{font-size:24px;font-weight:700;letter-spacing:.02em;color:var(--green-dk);font-family:'Playfair Display',Georgia,serif}
+.logo .sub{font-size:12px;font-weight:400;letter-spacing:.15em;text-transform:uppercase;color:#8a7a5a;margin-left:4px;padding-top:2px}
 nav a{font-family:Verdana,Arial,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);text-decoration:none;margin-left:22px}
 nav a:hover{color:var(--green)}
 .btn{display:inline-block;background:var(--green);color:#fff;font-family:Verdana,Arial,sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:12px 26px;border-radius:2px;transition:background .2s}
@@ -128,9 +130,9 @@ footer a{color:var(--gold);text-decoration:none}
   .topbar{font-size:11px}
   .topbar .wrap{flex-direction:column;align-items:flex-start;gap:2px;text-align:left}
   .logo{align-items:flex-end}
-  .logo img{width:38px;height:38px}
-  .logo .brand{font-size:26px}
-  .logo .sub{font-size:9px}
+  .logo img{width:36px;height:36px}
+  .logo .brand{font-size:20px}
+  .logo .sub{font-size:10px}
   nav{gap:4px}
   nav a.btn{padding:8px 12px;font-size:11px}
   .hero .eyebrow{font-size:10px;letter-spacing:.16em}
@@ -155,7 +157,7 @@ footer a{color:var(--gold);text-decoration:none}
     <div class="logo">
       <img src="logo.svg" alt="C-One Massage SPA logo">
       <span class="brand">C-One</span>
-      <span class="sub">Massage &amp; SPA</span>
+      <span class="sub">Massage &amp; Spa</span>
     </div>
     <nav>
       <a href="#services" class="hide-m">Services</a>
